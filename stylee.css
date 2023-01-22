@@ -1,0 +1,42 @@
+.video-container{position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90vh; 
+    overflow: hidden;
+    background-color: black;
+  
+  }
+  
+  .video-container video{ min-width: 100%;
+     min-height: 100%;
+    position: absolute;
+    display:block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+  }
+  
+  div .container .mainBody{ 
+    height:auto;
+    position:absolute;
+    top:100vh;
+    transform: translate(-50%,-50%);
+   }
+
+  .ibody{position:absolute;
+    padding-top: 2rem;
+    
+margin-right: rem !important;}
+
+div .top{ font-size: larger;
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    top: 70vh;
+    left: 8rem;
+    color:aliceblue;
+}
+  
